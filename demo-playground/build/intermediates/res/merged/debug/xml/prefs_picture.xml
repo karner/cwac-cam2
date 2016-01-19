@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <SwitchPreference
+    android:key="ffc"
+    android:title="@string/title_ffc"/>
+  <SwitchPreference
+    android:key="exact_match"
+    android:title="@string/title_exact_match"/>
+  <SwitchPreference
+    android:key="file"
+    android:title="@string/title_file"
+    android:summary="@string/summary_file"/>
+  <SwitchPreference
+    android:key="updateMediaStore"
+    android:dependency="file"
+    android:title="@string/title_update_media_store"/>
+  <SwitchPreference
+    android:key="confirm"
+    android:title="@string/title_confirm"/>
+  <SwitchPreference
+    android:key="debug"
+    android:title="@string/title_debug"/>
+  <SwitchPreference
+    android:key="debugSavePreview"
+    android:title="@string/title_save_preview"/>
+  <SwitchPreference
+    android:key="forceClassic"
+    android:title="@string/title_force_classic"/>
+  <SwitchPreference
+    android:key="mirrorPreview"
+    android:title="@string/title_mirror_preview"/>
+  <ListPreference
+    android:key="focusMode"
+    android:entries="@array/focusModes"
+    android:entryValues="@array/focusModeValues"
+    android:title="@string/title_focus_mode" />
+  <ListPreference
+    android:key="flashMode"
+    android:entries="@array/flashModes"
+    android:entryValues="@array/flashModeValues"
+    android:title="@string/title_flash_mode" />
+  <SwitchPreference
+    android:key="useChooser"
+    android:title="@string/title_use_chooser"/>
+
+</PreferenceScreen><!-- From: file:/C:/Users/karner/Documents/Projects/AndroidApps/cwac-cam2/demo-playground/src/main/res/xml/prefs_picture.xml -->
