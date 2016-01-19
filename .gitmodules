@@ -1,0 +1,3 @@
+[submodule "SensorManager"]
+	path = SensorManager
+	url = git://github.com/emotionsense/SensorManager
